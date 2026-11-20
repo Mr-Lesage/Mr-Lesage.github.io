@@ -4,6 +4,11 @@ const pages = [
       {
         type: "title",
         content: "Chapitre N°1",
+      {
+        type: "subtitle",
+        content: "Je t'aime mon chaton ♥",
+      }
+    ],
       },
     ],
 
