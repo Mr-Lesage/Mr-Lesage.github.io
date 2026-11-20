@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="values.css" />
+    <link rel="stylesheet" href="main.css" />
+
+    <script src="content.js" defer></script>
+    <script src="book.js" defer></script>
+
+    <title>Portfolio | Lesage Matheo</title>
+  </head>
+
+  <body>
+    <div class="screen">
+      <header class="header">
+        <div class="identity">
+          <h1>Lesage Matheo</h1>
+          <p>Infographiste</p>
+        </div>
+
+        <nav class="header-nav">
+          <a href="tos.html">TOS</a>
+          <a href="tarifs.html">Tarifs</a>
+          <a href="contact.html">Me Contacter</a>
+        </nav>
+      </header>
+
+      <nav class="navbar">
+        <div class="ribbon">
+          <div class="ribbon-body">
+            <button class="ribbon-link active" data-page="0" type="button">
+              <span class="ribbon-icon">⌂</span>
+              <span class="ribbon-label">Présentation</span>
+            </button>
+
+            <button class="ribbon-link" data-page="1" type="button">
+              <span class="ribbon-icon">♙</span>
+              <span class="ribbon-label">Compétences</span>
+            </button>
+          </div>
+
+          <div class="ribbon-tip"></div>
+        </div>
+      </nav>
+
+      <main class="main">
+        <button class="book-arrow arrow-left" id="prevPage" type="button">
+          &#10094;
+        </button>
+
+        <div class="book" id="book">
+          <section class="page page-left" id="leftPage"></section>
+          <section class="page page-right" id="rightPage"></section>
+
+          <div class="page-turner page-turner-right" id="pageTurnerRight">
+            <section class="page page-front" id="rightFront"></section>
+            <section class="page page-back" id="rightBack"></section>
+          </div>
+
+          <div class="page-turner page-turner-left" id="pageTurnerLeft">
+            <section class="page page-front" id="leftFront"></section>
+            <section class="page page-back" id="leftBack"></section>
+          </div>
+        </div>
+
+        <button class="book-arrow arrow-right" id="nextPage" type="button">
+          &#10095;
+        </button>
+      </main>
+
+      <footer class="footer">
+        <div class="footer-body">
+          <div>
+            <a href="informations.html">Informations générales</a>
+          </div>
+
+          <div>
+            <a href="mentions-legales.html">Mentions légales</a>
+          </div>
+
+          <div>
+            <span>Copyright © Lesage Matheo</span>
+          </div>
+        </div>
+
+        <div class="footer-tip"></div>
+      </footer>
+    </div>
+  </body>
+</html>

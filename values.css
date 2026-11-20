@@ -1,0 +1,32 @@
+@font-face {
+  font-family: "HKGroteskWide";
+  src: url("../Assets/Fonts/HKGroteskWide-Black.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+  --BackgroundColor: rgb(245, 235, 221);
+  --BackgroundColor2: rgb(226, 207, 183);
+  --BackgroundColor3: rgb(185, 115, 68);
+
+  --ElementColor: rgb(120, 0, 20);
+  --ElementColor2: rgb(160, 0, 0);
+
+  --PaperColor: rgb(245, 235, 221);
+  --PaperTexture: rgb(120 95 65 / 5%);
+
+  --TitleColor: rgb(88, 88, 88);
+  --TextColor: rgb(51, 51, 51);
+
+  --TitleFont: "HKGroteskWide", Arial, sans-serif;
+  --TextFont: Arial, sans-serif;
+
+  --BorderWidth: 2px;
+  --BorderColor: rgb(0, 0, 0);
+  --BorderColorSoft: rgb(0 0 0 / 8%);
+
+  --ShadowColor: rgb(0 0 0 / 15%);
+  --ShadowColorSoft: rgb(0 0 0 / 10%);
+  --ShadowColorStrong: rgb(0 0 0 / 40%);
+}
