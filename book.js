@@ -215,17 +215,17 @@ function renderBlock(block) {
   switch (block.type) {
     case "title":
       element = document.createElement("h2");
-      element.textContent = block.content || "";
+      element.innerHTML = block.content || "";
       break;
 
     case "subtitle":
       element = document.createElement("h3");
-      element.textContent = block.content || "";
+      element.innerHTML = block.content || "";
       break;
 
     case "text":
       element = document.createElement("p");
-      element.textContent = block.content || "";
+      element.innerHTML = block.content || "";
       break;
 
     case "image":
@@ -234,7 +234,7 @@ function renderBlock(block) {
 
     case "caption":
       element = document.createElement("figcaption");
-      element.textContent = block.content || "";
+      element.innerHTML = block.content || "";
       break;
 
     case "divider":
@@ -255,7 +255,7 @@ function renderBlock(block) {
 
     case "link":
       element = document.createElement("a");
-      element.textContent = block.content || "";
+      element.innerHTML = block.content || "";
       element.href = block.url || "#";
 
       if (block.target) {

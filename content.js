@@ -6,8 +6,13 @@ const pages = [
         content: "Chapitre N°1",
       },
       {
+        type: "subtitle",
+        content: "Présentation",
+      },
+      {
         type: "text",
-        content: "Je t'aime mon chaton ♥",
+        content:
+          "Mon nom est <span style='color: var(--ElementColor);'Matheo Lesage</span>, Je suis infographiste <span style='oppacity: 20%;'débutant</span>\n",
       },
     ],
 
