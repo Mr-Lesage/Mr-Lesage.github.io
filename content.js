@@ -8,8 +8,6 @@ const pages = [
       {
         type: "text",
         content: "Je t'aime mon chaton ♥",
-      }
-    ],
       },
     ],
 
